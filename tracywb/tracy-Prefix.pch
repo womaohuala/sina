@@ -1,0 +1,48 @@
+//
+//  tracy-Prefix.pch
+//  tracywb
+//
+//  Created by jimmy on 16/6/20.
+//  Copyright © 2016年 yk. All rights reserved.
+//
+
+#ifndef tracy_Prefix_pch
+#define tracy_Prefix_pch
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <CoreFoundation/CoreFoundation.h>
+#import "UIViewExt.h"
+#import "UIView+Addition.h"
+
+#define kTabBarHeight 49
+#define kStatusBarHeight 20
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kAppKey @"3266683763"
+//#define kAppKey @"3741380140"
+#define kRedirectURI    @"http://www.sina.com"
+#define kUserToken @"userToken"
+#define kUserId @"userId"
+#define kWBData @"kWBData"
+
+
+#define kGetMethod @"GET"
+#define kPostMethod @"POST"
+//调用微博接口url
+#define kGetFocusWBList @"https://api.weibo.com/2/statuses/home_timeline.json"
+#define kGetUnreadWeiboCount @"https://rm.api.weibo.com/2/remind/unread_count.json"
+#define kGetCommentList @"https://api.weibo.com/2/comments/show.json"
+#define kShowUser @"https://api.weibo.com/2/users/show.json"
+#define kGetUserWeiboList @"https://api.weibo.com/2/statuses/user_timeline.json"
+#define kSendMessage @"https://api.weibo.com/2/statuses/update.json"
+#define kUploadMessage @"https://api.weibo.com/2/statuses/upload.json"   //发送微博，包括图片
+#define kGetNearByLocation @"https://api.weibo.com/2/place/nearby/pois.json"
+#define kGetFocusFriends @"https://api.weibo.com/2/friendships/friends.json"  //获取关注我的好友
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* tracy_Prefix_pch */

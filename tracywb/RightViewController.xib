@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RightViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="2016100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Kth-yK-YCd">
+                    <rect key="frame" x="247" y="33" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="newbar_icon_1.png"/>
+                    <connections>
+                        <action selector="button:" destination="-1" eventType="touchUpInside" id="aew-k0-5lB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2016101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Os0-Yb-3I8">
+                    <rect key="frame" x="247" y="81" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="newbar_icon_2.png"/>
+                    <connections>
+                        <action selector="button:" destination="-1" eventType="touchUpInside" id="Y1P-WQ-bEY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2016102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e7P-X4-4pv">
+                    <rect key="frame" x="247" y="139" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="newbar_icon_3.png"/>
+                    <connections>
+                        <action selector="button:" destination="-1" eventType="touchUpInside" id="43H-mq-qIV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2016103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BQy-LP-WPS">
+                    <rect key="frame" x="247" y="192" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="newbar_icon_4.png"/>
+                    <connections>
+                        <action selector="button:" destination="-1" eventType="touchUpInside" id="Y3u-Qs-PA0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2016104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7wm-px-NB0">
+                    <rect key="frame" x="247" y="248" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="newbar_icon_5.png"/>
+                    <connections>
+                        <action selector="button:" destination="-1" eventType="touchUpInside" id="HTZ-LX-puO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="183" y="415"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="newbar_icon_1.png" width="40" height="40"/>
+        <image name="newbar_icon_2.png" width="40" height="40"/>
+        <image name="newbar_icon_3.png" width="40" height="40"/>
+        <image name="newbar_icon_4.png" width="40" height="40"/>
+        <image name="newbar_icon_5.png" width="40" height="40"/>
+    </resources>
+</document>
